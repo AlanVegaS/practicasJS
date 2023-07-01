@@ -29,3 +29,6 @@ getProductos()
     .then(item => console.log(item))
     .catch(error => console.log(error.message))
     .finally(() => console.log('Promesa finalizada'));
+
+
+
