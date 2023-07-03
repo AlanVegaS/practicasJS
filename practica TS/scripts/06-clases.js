@@ -43,7 +43,7 @@ class Camioneta extends Coche {
     }
     apagar() {
         console.log('Apagar Camioneta');
-        super.apagar();//con super se manda a llamar la clase padre
+        super.apagar();
     }
 }
 let coche = new Coche();
@@ -53,7 +53,5 @@ console.log(coche.getColor);
 console.log(coche);
 Coche.saludar;
 let camioneta = new Camioneta();
-camioneta.apagar();//llama el metodo de la clase hija
+camioneta.apagar();
 console.log(camioneta);
-
-

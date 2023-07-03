@@ -25,8 +25,3 @@ empresa = {
     sector: 'Informatica',
     facturacion: 5000000
 };
-empresa = {
-    nombre: 'Microsoft',
-    sector: 'Informatica'
-};
-empresa.facturacion = '';

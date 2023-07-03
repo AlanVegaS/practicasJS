@@ -38,10 +38,3 @@ empresa = {
     sector: 'Informatica',
     facturacion: 5_000_000
 }
-
-empresa = {//TS no deja editar el objeto de forma parcial o con un tipo de valor diferente
-    nombre: 'Microsoft',
-    sector: 'Informatica'
-}
-
-empresa.facturacion = ''
